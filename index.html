@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio</title>
+  <meta name="description" content="Portafolio personal" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVEGACIÓN FIJA -->
+  <nav class="nav" id="nav">
+    <a href="#inicio" class="nav__brand" id="nav-brand">Portafolio</a>
+    <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="nav-links" role="list">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#cursos">Cursos</a></li>
+      <li><a href="#companeros">Compañeros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__content">
+      <img class="hero__photo" id="hero-photo" src="" alt="" />
+      <h1 class="hero__name" id="hero-name"></h1>
+      <p class="hero__titular" id="hero-titular"></p>
+      <div class="hero__buttons" id="hero-buttons"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <h2 class="section__heading">Sobre mí</h2>
+      <p class="about__bio" id="about-bio"></p>
+    </div>
+  </section>
+
+  <!-- CURSOS -->
+  <section class="section section--alt" id="cursos">
+    <div class="container">
+      <h2 class="section__heading">Cursos</h2>
+      <div class="cards-grid" id="cursos-grid"></div>
+    </div>
+  </section>
+
+  <!-- COMPAÑEROS -->
+  <section class="section" id="companeros">
+    <div class="container">
+      <h2 class="section__heading">Compañeros</h2>
+      <div class="peers-grid" id="companeros-grid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACTO / FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container">
+      <h2 class="footer__heading">Contacto</h2>
+      <div class="footer__links" id="footer-links"></div>
+      <p class="footer__copy">
+        &copy; <span id="footer-year"></span>
+        <span id="footer-name"></span>. Hecho con HTML, CSS y JS puro.
+      </p>
+    </div>
+  </footer>
+
+  <!-- El orden importa: data primero, main después -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
