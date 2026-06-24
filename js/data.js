@@ -12,7 +12,7 @@ const DATA = {
   ---------------------------------------------------------- */
   perfil: {
     nombre:   "Iker Leonel Alvarez Diaz",
-    fotoURL:  "https://cdn-icons-png.flaticon.com/512/4042/4042171.png",   // ← pon tu foto en assets/ o cambia por una URL externa
+    fotoURL:  "assets/image.jpg",   // ← pon tu foto en assets/ o cambia por una URL externa
     titular:  "Estudiante de Ciencias de la Computación · UCSP",
     bio:      "Estudiante de Ciencias de la Computación en la Universidad Católica San Pablo (UCSP). Elegí esta carrera porque me apasionan la tecnología y su constante evolución en el mundo. Mi objetivo es aportar a la sociedad a través del desarrollo tecnológico una vez culmine mis estudios, siendo un buen profesional. Busco desarrollar mis conocimientos y desafiarme a mí mismo con cada obstáculo y oportunidad de mejora que encuentre en el camino.",
     email:    "",           // ← agrega tu correo si lo quieres mostrar
